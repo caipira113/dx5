@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 function syncFile() {
     local sourceFile="$1"
     ln -sf "$CWD/${sourceFile}" "$HOME/${sourceFile}"
