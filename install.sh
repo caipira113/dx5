@@ -58,7 +58,7 @@ export PATH=~/.npm/global/bin:$PATH
 npm config set prefix ~/.npm/global
 
 # Install typewritten
-npm install -g typewritten
+npm install --location=global typewritten
 
 # check nodejs installation
 if ! which node > /dev/null; then
