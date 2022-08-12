@@ -1,0 +1,10 @@
+[commit]
+        gpgsign = true
+[user]
+        name = caipira113
+        email = caipira113@ocellaris.dev
+        signingkey = EC6972FA389E30A6
+[core]
+        autocrlf = input
+[gpg]
+        program = gpg
