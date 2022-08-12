@@ -63,11 +63,6 @@ export CLOUDSDK_PYTHON=$(which python3)
 # nvm
 source /usr/share/nvm/init-nvm.sh
 
-# Set typewritten ZSH as a prompt
-autoload -U promptinit; promptinit
-prompt typewritten
-fpath=($fpath "~/.zfunctions")
-
 # Keybindings
 bindkey "^[[H" beginning-of-line
 bindkey "^[[F" end-of-line
